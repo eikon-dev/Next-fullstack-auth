@@ -1,7 +1,7 @@
 import {cookies} from "next/headers";
 import {prisma} from "@/lib/prisma";
 
-type CurrentUser = {
+export type CurrentUser = {
   id: string
   email: string
 }
